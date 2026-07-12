@@ -6,7 +6,7 @@
     flake-utils.url = "github:numtide/flake-utils";
 
     platform = {
-      url = "git+file:///Users/forrest/dev/personal/nix-platform-poc/platform?ref=v0.1.0";
+      url = "git+file:///Users/forrest/dev/personal/nix-platform-poc/platform?ref=v0.2.0";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
